@@ -1,0 +1,75 @@
+/* General Styling */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  text-align: center;
+  height: 100vh;
+  background: url('your-image.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  position: relative;
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent effect */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #f0a500;
+}
+
+/* Main Content */
+.main-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.main-content h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.main-content p {
+  font-size: 1.2em;
+}
