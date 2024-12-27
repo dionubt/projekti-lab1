@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./App.css";
 
 function App() {
@@ -25,9 +26,9 @@ function App() {
       <nav className={`navbar ${isScrolled ? "navbar-scrolled" : ""}`}>
         <div className="logo">Power Play</div>
         <ul className="nav-items">
-          <li>Home</li>
+          <li><Link to="/">Home</Link></li>
           <li>About</li>
-          <li>Services</li>
+          <li><Link to="/services">Services</Link></li>
           <li>Login</li>
         </ul>
       </nav>
