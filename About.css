@@ -1,0 +1,148 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000; /* Solid black color */
+  padding: 10px 20px;
+  position: fixed; /* Keep navbar fixed on top */
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+/* No scrolling effect, navbar stays black */
+.navbar .logo {
+  color: #00d9ff; /* Bluish icy color */
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(0, 217, 255, 0.8), 0 0 20px rgba(0, 217, 255, 0.6);
+}
+
+.nav-items {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-items li {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-items li:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* About Page Styles */
+.about-page {
+  background-image: url('4k-ultra-hd-transformers-optimus-bumblebee-fight-get1itx4owzg35zz.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding-top: 60px; /* To avoid overlap with fixed navbar */
+  color: white;
+}
+
+/* About Content Wrapper */
+.about-content-box {
+  background-color: rgba(0, 0, 0, 0.6); /* Faded black background */
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin: 40px auto;
+  max-width: 1200px;
+}
+
+/* About Content */
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Text Section */
+.text-section {
+  width: 50%;
+  text-align: left;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.text-section h1 {
+  font-size: 3rem;
+}
+
+.text-section p {
+  font-size: 1.5rem;
+}
+
+/* Image Section */
+.image-section {
+  width: 50%;
+}
+
+.image-section img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #000000; /* Solid black color */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: #00d9ff; /* Bluish icy color */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #00a8cc; /* Slightly lighter blue on hover */
+}
