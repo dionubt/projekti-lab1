@@ -1,0 +1,156 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    color: #00d9ff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0, 217, 255, 0.8), 0 0 20px rgba(0, 217, 255, 0.6);
+}
+
+.nav-items {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-items li {
+    color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-items li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Services Page Styles */
+.services-page {
+    background-image: url('4k-ultra-hd-transformers-optimus-bumblebee-fight-get1itx4owzg35zz.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 70px; /* Offset for fixed navbar */
+}
+
+.services-content {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.services-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.laptops-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.laptop-card {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.laptop-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+}
+
+.laptop-card .laptop-image {
+    width: 100%;
+    height: auto; /* Allow the image to adjust its height based on the aspect ratio */
+    object-fit: contain; /* Ensure the full image is visible without distortion */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.laptop-card img {
+    width: 100%;
+    height: auto; /* Adjust height based on aspect ratio */
+    object-fit: contain; /* Keep the image's aspect ratio intact */
+    border-radius: 5px;
+}
+
+.laptop-card h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.laptop-card p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.laptop-card button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #00d9ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000;
+    transition: background-color 0.3s ease;
+}
+
+.laptop-card button:hover {
+    background-color: #00a8cc;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: #00d9ff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #00a8cc;
+}
