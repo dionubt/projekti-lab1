@@ -29,7 +29,9 @@ function App() {
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/services">Services</Link></li>
-          <li>Login</li>
+          <li>|</li>
+          <li><Link to="/login">Login</Link></li>
+          <li><Link to="/signup">Sign up</Link></li>
         </ul>
       </nav>
       <div className="body-content">
