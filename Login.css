@@ -1,0 +1,80 @@
+/* Login.css */
+
+/* Body Styles */
+.login-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('4k-ultra-hd-transformers-optimus-bumblebee-fight-get1itx4owzg35zz.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 60px; /* Avoid navbar overlap */
+  }
+  
+  /* Login Box */
+  .login-box {
+    background-color: rgba(0, 0, 0, 0.6); /* Dark background for the box */
+    padding: 30px 40px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: white;
+  }
+  
+  .login-box h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00d9ff; /* Bluish icy color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #00a8cc; /* Lighter blue on hover */
+  }
+  
+  /* Link Styles */
+  p {
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+  
+  p a {
+    color: #00d9ff;
+    text-decoration: none;
+  }
+  
+  p a:hover {
+    color: #00a8cc;
+  }
+  
