@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url('4k-ultra-hd-transformers-optimus-bumblebee-fight-get1itx4owzg35zz.jpg');
+    background-image: url('/images/4k-ultra-hd-transformers-optimus-bumblebee-fight-get1itx4owzg35zz.jpg');
     background-size: cover;
     background-position: center;
     padding-top: 60px; /* Avoid navbar overlap */
@@ -78,3 +78,22 @@
     color: #00a8cc;
   }
   
+
+  /*new code*/
+  .sorting-container {
+    text-align: left;
+    margin: 20px;
+}
+
+.sorting-container label {
+    font-size: 1rem;
+    color: white;
+    margin-right: 10px;
+}
+
+.sorting-container select {
+    padding: 5px 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

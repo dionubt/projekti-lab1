@@ -52,7 +52,7 @@ body, html {
 
 /* Services Page Styles */
 .services-page {
-    background-image: url('4k-ultra-hd-transformers-optimus-bumblebee-fight-get1itx4owzg35zz.jpg');
+    background-image: url('/images/4k-ultra-hd-transformers-optimus-bumblebee-fight-get1itx4owzg35zz.jpg');
     background-size: cover;
     background-position: center;
     padding-top: 70px; /* Offset for fixed navbar */

@@ -11,6 +11,7 @@ function About() {
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/services">Services</Link></li>
+          <li><Link to="/contact">Contact Us</Link></li>
           <li>|</li>
           <li><Link to="/login">Login</Link></li>
           <li><Link to="/signup">Sign up</Link></li>
@@ -22,9 +23,9 @@ function About() {
           <div className="text-section">
             <h1>About Power Play</h1>
             <p>
-              Power Play is your ultimate destination for the best gaming gear and accessories. 
-              From high-performance controllers to cutting-edge tech, we provide everything 
-              you need to level up your gaming experience.
+            Power Play is your ultimate destination for exceptional gaming laptops.
+            With high performance and advanced technology, 
+            we provide everything you need to take your gaming experience to the next level.
             </p>
           </div>
           <div className="image-section">
@@ -39,7 +40,7 @@ function About() {
           <div className="footer-links">
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Service</a>
-            <a href="#">Contact Us</a>
+            <Link to="/contact">Contact Us</Link> {/* Updated Contact Us */}
           </div>
         </div>
       </footer>

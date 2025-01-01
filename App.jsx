@@ -29,14 +29,16 @@ function App() {
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/services">Services</Link></li>
+          <li><Link to="/contact">Contact Us</Link></li>
           <li>|</li>
           <li><Link to="/login">Login</Link></li>
           <li><Link to="/signup">Sign up</Link></li>
         </ul>
       </nav>
       <div className="body-content">
-        <h1>Level Up Your Gear!</h1>
-        <p>Discover epic gaming accessories, gadgets, and gear to dominate your next adventure.</p>
+        <h1>Upgrade Your Gaming Arsenal!</h1>
+        <p>Explore top-tier gaming laptops engineered for performance</p>
+        <p>speed, and immersive gameplay. Elevate your gaming experience to the next level.</p>
       </div>
 
       {/* Footer */}
@@ -46,7 +48,7 @@ function App() {
           <div className="footer-links">
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Service</a>
-            <a href="#">Contact Us</a>
+            <Link to="/contact">Contact Us</Link> {/* Updated Contact Us */}
           </div>
         </div>
       </footer>
